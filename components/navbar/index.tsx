@@ -45,7 +45,7 @@ export default function ResponsiveAppBar() {
 
   return (
     <NoSsr>
-      <AppBar position='fixed' className='bg-white'>
+      <AppBar position='fixed' sx={{ background: "white" }}>
         <Container maxWidth='xl'>
           <Toolbar disableGutters>
             <Typography
